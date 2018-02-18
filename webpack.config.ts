@@ -34,8 +34,5 @@ module.exports = {
 		extensions: [
 			'.js', '.ts'
 		]
-	},
-	resolveLoader: {
-		modules: ['node_modules', './webpack/loaders']
 	}
 };
