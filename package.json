@@ -7,10 +7,10 @@
 		"hard-source-webpack-plugin": "0.6.0-alpha.8",
 		"ts-loader": "^3.5.0",
 		"ts-node": "4.1.0",
-		"typescript": "2.7.1",
+		"typescript": "2.7.2",
 		"vue": "^2.5.13",
 		"vue-loader": "^14.1.1",
 		"vue-template-compiler": "^2.5.13",
-		"webpack": "3.10.0"
+		"webpack": "3.11.0"
 	}
 }
