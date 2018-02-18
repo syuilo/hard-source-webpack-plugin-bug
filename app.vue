@@ -1,18 +1,18 @@
 <template>
 <div>
-	<h1>Hi</h1>
-	<my-message message="yo"/>
+	<h1>{{ message }}</h1>
 </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
-import Message from './message.vue';
+import message from './message.ts';
 
 export default Vue.extend({
-	components: {
-		'my-message': Message
+	data() {
+		return {
+			message: message()
+		};
 	}
 });
 </script>
-

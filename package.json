@@ -1,7 +1,7 @@
 {
 	"private": true,
 	"scripts": {
-		"build": "./node_modules/.bin/webpack --config ./webpack.config.ts"
+		"build": "./node_modules/.bin/webpack --config ./webpack.config.js"
 	},
 	"dependencies": {
 		"hard-source-webpack-plugin": "0.6.0-alpha.8",
