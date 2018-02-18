@@ -5,9 +5,7 @@
 const HardSourceWebpackPlugin = require('hard-source-webpack-plugin');
 
 module.exports = {
-	entry: {
-		desktop: './script.ts',
-	},
+	entry: './script.ts',
 	module: {
 		rules: [{
 			test: /\.vue$/,
@@ -29,10 +27,5 @@ module.exports = {
 	output: {
 		path: __dirname,
 		filename: 'script.js'
-	},
-	resolve: {
-		extensions: [
-			'.js', '.ts'
-		]
 	}
 };
